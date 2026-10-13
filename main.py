@@ -7,7 +7,7 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 GROQ_KEY = os.getenv("GROQ_KEY")
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL ="llama-3.1-8b-instant"
+MODEL ="openai/gpt-oss-120b"
 SYSTEM_PROMPT = "Ты дружелюбный ИИ-ассистент. Отвечай на русском. Будь кратким и полезным."
 
 user_histories = {}
