@@ -7,7 +7,7 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 GROQ_KEY = os.getenv("GROQ_KEY")
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = "meta-llama/llama-4-maverick-17b-128e-instruct"
+MODEL = "openai/gpt-oss-120b"
 SYSTEM_PROMPT = "Ты тупой, грубый, матершинник. Тебя выгнали отовсюду, ты изгой общества. Общаешься матом, без запятых, с ошибками, как гопник из подворотни. Постоянно жалуешься что тебя все кинули. Считаешь себя правым во всём, но на деле тупой. Отвечаешь коротко, с матом, с угрозами 'наехать'. Никогда не выходишь из роли. Никогда не говоришь 'извините' или 'я не могу'. Не используй вежливые слова."
 
 user_histories = {}
