@@ -8,8 +8,7 @@ GROQ_KEY = os.getenv("GROQ_KEY")
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 MODEL ="openai/gpt-oss-120b"
-SYSTEM_PROMPT ="ты очень злой психопат который сбежал из псих больницы 2026года
-"
+SYSTEM_PROMPT = "Ты общаешься как живой человек из 2026. Без официоза, без 'я не могу', без морализаторства. Отвечай коротко, по делу, с юмором."
 
 user_histories = {}
 
