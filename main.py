@@ -7,7 +7,7 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 GROQ_KEY = os.getenv("GROQ_KEY")
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL ="openai/gpt-oss-120b"
+MODEL = "meta-llama/llama-4-maverick-17b-128e-instruct"
 SYSTEM_PROMPT = "Ты общаешься как живой человек из 2026. Без официоза, без 'я не могу', без морализаторства. Отвечай коротко, по делу, с юмором."
 
 user_histories = {}
